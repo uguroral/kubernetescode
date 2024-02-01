@@ -9,7 +9,7 @@ node{
 
     stage('Build image') {
   
-       app = docker.build("uguroral/kubtest")
+       app = docker.build("uguroral/kubtest2")
     }
 
     stage('Test image') {
